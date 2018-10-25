@@ -1,6 +1,6 @@
 $(document).ready(function() {
-  const apiRoot = 'limitless-waters-59643.herokuapp.com/v1/task/';
-  const trelloApiRoot = 'limitless-waters-59643.herokuapp.com/v1/trello/';
+  const apiRoot = 'https://limitless-waters-59643.herokuapp.com/v1/task/';
+  const trelloApiRoot = 'https://limitless-waters-59643.herokuapp.com/v1/trello/';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
 
